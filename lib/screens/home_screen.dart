@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         shadowColor: Colors.red,
         elevation: 1,
-        toolbarHeight: 65,
+        toolbarHeight: 70,
         title: Text(
           "Chats",
           style: TextStyle(
@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
           onPressed: () {
             print("backbutton");
           },
-          icon: Icon(Icons.arrow_back_ios_outlined),
+          icon: Icon(Icons.menu),
           iconSize: 30.0,
           color: Colors.white,
         ),
